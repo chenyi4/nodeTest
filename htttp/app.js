@@ -5,8 +5,8 @@ var arr = {
     name: 300
 }
 
-app.get('/', (req, res) => res.send(arr))
+app.get('/', (req, res) => res.send(arr));
 
-app.get('/aaa/ajhhs', (req, res) => res.send(arr))
+app.get('/aaa/ajhhs', (req, res) => res.send(arr));
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
